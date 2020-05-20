@@ -17,6 +17,8 @@
   export default {
     created() {
       console.log("home")
+      console.log("home")
+      console.log("home")
      /* Base.getHost().then((res)=>{
         this.$store.dispatch('bottomBarIndexChange', 1);
       }).catch(()=>{
