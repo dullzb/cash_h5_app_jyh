@@ -1,0 +1,27 @@
+.bg-image(@url){
+  background-image: url("@{url}@2x.png");
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3){
+    background-image: url("@{url}@3x.png");
+  }
+  background-repeat: no-repeat;
+};
+@title_bgColor: #ffdc00;
+@title_color: #333333;
+@theme_bgColor: #f8da49;
+@theme_color: #463f17;
+
+.theme_buttom(){
+  display: inline-block;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  width: 5.6rem;
+  min-width: 200px;
+  text-align: center;
+  color: #463f17;
+  background: #f8da49;
+  font-size: 0.32rem;
+  border-radius: 0.2rem;
+ /* &:active{
+    background: #eec93f;
+  }*/
+};

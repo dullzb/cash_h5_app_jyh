@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var arr1 = [{ "memory": 128, "cpu": 64, "key": "ecs.c5.16xlarge" }, { "memory": 16, "cpu": 8, "key": "ecs.c5.2xlarge" }, { "memory": 32, "cpu": 16, "key": "ecs.c5.4xlarge" }, { "memory": 48, "cpu": 24, "key": "ecs.c5.6xlarge" }, { "memory": 64, "cpu": 32, "key": "ecs.c5.8xlarge" }, { "memory": 4, "cpu": 2, "key": "ecs.c5.large" }, { "memory": 8, "cpu": 4, "key": "ecs.c5.xlarge" }, { "memory": 224, "cpu": 56, "key": "ecs.d1ne.14xlarge" }, { "memory": 32, "cpu": 8, "key": "ecs.d1ne.2xlarge" }, { "memory": 64, "cpu": 16, "key": "ecs.d1ne.4xlarge" }, { "memory": 96, "cpu": 24, "key": "ecs.d1ne.6xlarge" }, { "memory": 128, "cpu": 32, "key": "ecs.d1ne.8xlarge" }, { "memory": 256, "cpu": 64, "key": "ecs.g5.16xlarge" }, { "memory": 32, "cpu": 8, "key": "ecs.g5.2xlarge" }, { "memory": 64, "cpu": 16, "key": "ecs.g5.4xlarge" }, { "memory": 96, "cpu": 24, "key": "ecs.g5.6xlarge" }, { "memory": 128, "cpu": 32, "key": "ecs.g5.8xlarge" }, { "memory": 8, "cpu": 2, "key": "ecs.g5.large" }, { "memory": 16, "cpu": 4, "key": "ecs.g5.xlarge" }, { "memory": 512, "cpu": 64, "key": "ecs.i2.16xlarge" }, { "memory": 64, "cpu": 8, "key": "ecs.i2.2xlarge" }, { "memory": 128, "cpu": 16, "key": "ecs.i2.4xlarge" }, { "memory": 256, "cpu": 32, "key": "ecs.i2.8xlarge" }, { "memory": 32, "cpu": 4, "key": "ecs.i2.xlarge" }, { "memory": 4, "cpu": 2, "key": "ecs.n1.medium" }, { "memory": 512, "cpu": 64, "key": "ecs.r5.16xlarge" }, { "memory": 64, "cpu": 8, "key": "ecs.r5.2xlarge" }, { "memory": 128, "cpu": 16, "key": "ecs.r5.4xlarge" }, { "memory": 192, "cpu": 24, "key": "ecs.r5.6xlarge" }, { "memory": 256, "cpu": 32, "key": "ecs.r5.8xlarge" }, { "memory": 16, "cpu": 2, "key": "ecs.r5.large" }, { "memory": 32, "cpu": 4, "key": "ecs.r5.xlarge" }, { "memory": 480, "cpu": 56, "key": "ecs.se1.14xlarge" }, { "memory": 64, "cpu": 8, "key": "ecs.se1.2xlarge" }, { "memory": 128, "cpu": 16, "key": "ecs.se1.4xlarge" }, { "memory": 256, "cpu": 32, "key": "ecs.se1.8xlarge" }, { "memory": 16, "cpu": 2, "key": "ecs.se1.large" }, { "memory": 32, "cpu": 4, "key": "ecs.se1.xlarge" }, { "memory": 480, "cpu": 56, "key": "ecs.se1ne.14xlarge" }, { "memory": 64, "cpu": 8, "key": "ecs.se1ne.2xlarge" }, { "memory": 128, "cpu": 16, "key": "ecs.se1ne.4xlarge" }, { "memory": 256, "cpu": 32, "key": "ecs.se1ne.8xlarge" }, { "memory": 16, "cpu": 2, "key": "ecs.se1ne.large" }, { "memory": 32, "cpu": 4, "key": "ecs.se1ne.xlarge" }, { "memory": 32, "cpu": 16, "key": "ecs.sn1.3xlarge" }, { "memory": 64, "cpu": 32, "key": "ecs.sn1.7xlarge" }, { "memory": 8, "cpu": 4, "key": "ecs.sn1.large" }, { "memory": 4, "cpu": 2, "key": "ecs.sn1.medium" }, { "memory": 16, "cpu": 8, "key": "ecs.sn1.xlarge" }, { "memory": 16, "cpu": 8, "key": "ecs.sn1ne.2xlarge" }, { "memory": 32, "cpu": 16, "key": "ecs.sn1ne.4xlarge" }, { "memory": 64, "cpu": 32, "key": "ecs.sn1ne.8xlarge" }, { "memory": 4, "cpu": 2, "key": "ecs.sn1ne.large" }, { "memory": 8, "cpu": 4, "key": "ecs.sn1ne.xlarge" }, { "memory": 224, "cpu": 56, "key": "ecs.sn2.13xlarge" }, { "memory": 64, "cpu": 16, "key": "ecs.sn2.3xlarge" }, { "memory": 128, "cpu": 32, "key": "ecs.sn2.7xlarge" }, { "memory": 16, "cpu": 4, "key": "ecs.sn2.large" }, { "memory": 8, "cpu": 2, "key": "ecs.sn2.medium" }, { "memory": 32, "cpu": 8, "key": "ecs.sn2.xlarge" }, { "memory": 224, "cpu": 56, "key": "ecs.sn2ne.14xlarge" }, { "memory": 32, "cpu": 8, "key": "ecs.sn2ne.2xlarge" }, { "memory": 64, "cpu": 16, "key": "ecs.sn2ne.4xlarge" }, { "memory": 128, "cpu": 32, "key": "ecs.sn2ne.8xlarge" }, { "memory": 8, "cpu": 2, "key": "ecs.sn2ne.large" }, { "memory": 16, "cpu": 4, "key": "ecs.sn2ne.xlarge" }]
+    //有效的实例类型列表：
+    var instanceTypes = [
+        "ecs.c5.xlarge",
+        "ecs.d1ne.14xlarge",
+        "ecs.g5.16xlarge",
+        "ecs.g5.large",
+        "ecs.g5.xlarge",
+        "ecs.i2.2xlarge",
+        "ecs.r5.large",
+        "ecs.se1.large",
+        "ecs.se1.xlarge",
+        "ecs.se1ne.14xlarge",
+        "ecs.se1ne.8xlarge",
+        "ecs.se1ne.large",
+    ]
+
+    function printArray(arr) {
+        //请填写代码
+        var print = ''
+        var printArray = []
+        arr.forEach((item) => {
+            instanceTypes.forEach(i => {
+                if (item.key == i) {
+                    printArray.push(item)
+                }
+            })
+        })
+        printArray = sortByKey(printArray, 'memory', 'cpu');
+        printArray.forEach(item => {
+            print = `${item.key},${item.cpu},${item.memory}`
+            console.log(print)
+        })
+
+        function sortByKey(array, key1, key2) {
+            return array.sort(function(a, b) {
+                var x = a[key1];
+                var y = b[key1];
+                var a = a[key2];
+                var b = b[key2];
+                if (a === b) {
+                    if (x > y) {
+                        return 1;
+                    } else {
+                        return -1;
+                    }
+                } else {
+                    if (a > b) {
+                        return 1;
+                    } else {
+                        return -1;
+                    }
+                }
+            })
+        }
+    }
+    printArray(arr1)
+</script>
+
+</html>

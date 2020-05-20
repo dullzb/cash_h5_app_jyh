@@ -1,0 +1,337 @@
+@font-face {
+  font-family: PingFangSC-Regular;
+  src: url('assets/fonts/PingFangMedium.ttf');
+}
+* {
+  box-sizing: border-box;
+}
+.am-ft-red {
+  color: #ec1a37 !important;
+}
+.am-ft-night {
+  color: #999999 important;
+}
+.am-ft-darkred {
+  color: #D0021B !important;
+}
+.am-ft-blue {
+  color: #009fcf !important;
+}
+.am-ft-black {
+  color: #000 !important;
+}
+.am-ft-aa {
+  color: #aaaaaa !important;
+}
+.am-ft-orange {
+  color: #ff7600 !important;
+  color: #ff7600;
+}
+.am-ft-yellow {
+  color: #EA9100 !important;
+}
+.am-text-normal {
+  color: #606266;
+}
+.am-text-secondary {
+  color: #909399;
+}
+.am-text-placeholder {
+  color: #C0C4CC;
+}
+.am-ft-green {
+  color: #3bcc4a !important;
+}
+.am-bg-white {
+  background: #FFFFFF;
+}
+.am-bg-blue {
+  background: #009dff !important;
+}
+.am-bg-orange {
+  background: #ff7600 !important;
+}
+.am-bg-red {
+  background: #f36a6a !important;
+}
+.am-ft-12 {
+  font-size: 12px;
+}
+.am-ft-13 {
+  font-size: 13px;
+}
+.am-ft-14 {
+  font-size: 14px;
+}
+.am-ft-16 {
+  font-size: 16px;
+}
+.am-ft-18 {
+  font-size: 18px;
+}
+.am-ft-20 {
+  font-size: 20px;
+}
+.am-ft-22 {
+  font-size: 22px !important;
+}
+.mgt0 {
+  margin-top: 0;
+}
+.mgt2 {
+  margin-top: 2px;
+}
+.mgt4 {
+  margin-top: 4px;
+}
+.mgt5 {
+  margin-top: 5px;
+}
+.mgt6 {
+  margin-top: 6px;
+}
+.mgt8 {
+  margin-top: 8px;
+}
+.mgt10 {
+  margin-top: 0.2rem;
+}
+.mgt15 {
+  margin-top: 15px;
+}
+.mgt20 {
+  margin-top: 20px;
+}
+.mgt25 {
+  margin-top: 25px;
+}
+.mgt30 {
+  margin-top: 30px;
+}
+.mgb0 {
+  margin-bottom: 0;
+}
+.mgb5 {
+  margin-bottom: 5px;
+}
+.mgb6 {
+  margin-bottom: 6px;
+}
+.mgb8 {
+  margin-bottom: 8px;
+}
+.mgb10 {
+  margin-bottom: 10px;
+}
+.mgb15 {
+  margin-bottom: 15px;
+}
+.mgb20 {
+  margin-bottom: 20px;
+}
+.mgb25 {
+  margin-bottom: 25px;
+}
+.mgl0 {
+  margin-left: 0;
+}
+.mgl5 {
+  margin-left: 5px;
+}
+.mgl6 {
+  margin-left: 6px;
+}
+.mgl8 {
+  margin-left: 8px;
+}
+.mgl10 {
+  margin-left: 10px;
+}
+.mgl15 {
+  margin-left: 15px;
+}
+.mgl20 {
+  margin-left: 20px;
+}
+.mgl25 {
+  margin-left: 25px;
+}
+.mgl30 {
+  margin-left: 30px;
+}
+.mgr0 {
+  margin-right: 0;
+}
+.mgr5 {
+  margin-right: 5px;
+}
+.mgr6 {
+  margin-right: 6px;
+}
+.mgr8 {
+  margin-right: 8px;
+}
+.mgr10 {
+  margin-right: 10px;
+}
+.mgr15 {
+  margin-right: 15px;
+}
+.mgr20 {
+  margin-right: 20px;
+}
+.mgr25 {
+  margin-right: 25px;
+}
+.mgr30 {
+  margin-right: 30px;
+}
+.mgr50 {
+  margin-right: 50px;
+}
+.pt0 {
+  padding-top: 0;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.pt15 {
+  padding-top: 15px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pb0 {
+  padding-bottom: 0;
+}
+.pb10 {
+  padding-bottom: 10px;
+}
+.pb15 {
+  padding-bottom: 15px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.pl0 {
+  padding-left: 0;
+}
+.pl10 {
+  padding-left: 10px;
+}
+.pl15 {
+  padding-left: 15px;
+}
+.pl20 {
+  padding-left: 20px;
+}
+.pr0 {
+  padding-right: 0;
+}
+.pr10 {
+  padding-right: 10px;
+}
+.pr15 {
+  padding-right: 15px;
+}
+.pr20 {
+  padding-right: 20px;
+}
+.before-none:before {
+  content: ' ';
+  width: 0 !important;
+  height: 0 !important;
+}
+.after-none:after {
+  content: ' ';
+  width: 0 !important;
+  height: 0 !important;
+}
+.fn-left {
+  float: left !important;
+}
+.fn-right {
+  float: right !important;
+}
+.align-center {
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.am-ft-left {
+  text-align: left;
+}
+.am-ft-center {
+  text-align: center;
+}
+.fn-line {
+  display: inline;
+}
+.fn-block {
+  display: block;
+}
+.fn-line-block {
+  display: inline-block;
+}
+i,
+em {
+  font-style: normal;
+}
+.am-ft-right {
+  text-align: right;
+}
+.am-ft-bold {
+  font-weight: bold;
+}
+.am-ft-norm {
+  font-weight: normal;
+}
+.am-ft-gray3 {
+  color: #333333 !important;
+}
+.am-ft-gray6 {
+  color: #666666 !important;
+}
+.am-ft-gray9 {
+  color: #999999 !important;
+}
+.ft_bold {
+  font-weight: bold;
+}
+.w90 {
+  width: 90px !important;
+}
+.w50 {
+  width: 50px !important;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.content_box {
+  padding: 13px;
+  background: #f4f4f4;
+  height: 100%;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.full-line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.full-line-dashed {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #e1e1e1;
+}
+.line {
+  width: 100%;
+  height: 0.02rem;
+  background: #494b4a;
+  color: #494b4a;
+}
